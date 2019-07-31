@@ -8,6 +8,9 @@ class Main extends React.Component {
 
         <div>
           this is main page.
+          <Link to="/main/a">嵌套路由到about</Link>
+          <hr/>
+          {this.props.children}
         </div>
 
     )
