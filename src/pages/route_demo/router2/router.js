@@ -1,8 +1,8 @@
 import React from 'react'
 import {HashRouter as Router,Route} from 'react-router-dom'
-import Main from './../route1/Main'
-import About from './../route1/about'
-import Topic from './../route1/topic'
+import Main from './Main'
+import About from '../router1/about'
+import Topic from '../router1/topic'
 import Home from './Home'
 class IRoute extends React.Component {
   render() {
