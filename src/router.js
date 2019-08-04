@@ -16,7 +16,7 @@ class IRouter extends React.Component {
           <Route path="/admin" render={()=>
             <Admin>
                <Route path="/admin/ui/buttons" component={Buttons}></Route>
-               <Route component={NotMatch}></Route>
+               <Route component={ NotMatch }></Route>
             </Admin>
           }></Route>
           <Route path="/order/detail" component={Login}></Route>
