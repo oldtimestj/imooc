@@ -7,7 +7,7 @@ class Login extends React.Component {
     return(
 
       <div>
-        this is about page.
+        this is login page.
       </div>
 
     )
