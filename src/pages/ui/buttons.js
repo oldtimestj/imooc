@@ -2,17 +2,15 @@ import React from 'react'
 
 
 
-class Login extends React.Component {
+class Buttons extends React.Component {
   render() {
     return(
-
       <div>
-        this is login page.
+        this is buttons page.
       </div>
-
     )
   }
 
 }
 
-export default Login
+export default Buttons

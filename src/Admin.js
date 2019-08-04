@@ -17,7 +17,7 @@ class Admin extends React.Component {
           <Header>
           </Header>
           <Row className="content">
-            <Home/>
+            {this.props.children}
           </Row>
           <Footer>
           </Footer>
